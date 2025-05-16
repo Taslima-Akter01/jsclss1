@@ -1,0 +1,35 @@
+/* Style for buttons */
+.mybtn {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f0f8ff; /* Optional: light background */
+}
+
+/* Button hover effect */
+.mybtn:hover {
+    background-color: #0b2a3f; /* Darker blue */
+}
+
+/* Style for paragraph */
+#demos {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-top: 20px;
+}
